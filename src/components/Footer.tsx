@@ -40,7 +40,7 @@ export const Footer = () => {
                 href="https://wa.me/5571988895613?text=Oi%20Quezia!%20Vim%20pelo%20site%20e%20quero%20saber%20mais"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-dark-800 flex items-center justify-center hover:bg-[#25D366] hover:text-white transition-all"
+                className="w-10 h-10 rounded-full bg-dark-800 flex items-center justify-center hover:text-white transition-allhover:text-white transition-all"
                 aria-label="WhatsApp"
               >
                 <svg 

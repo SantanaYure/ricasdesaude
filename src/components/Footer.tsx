@@ -1,4 +1,3 @@
-import { Button } from './Button';
 import { Instagram } from 'lucide-react';
 
 export const Footer = () => {
@@ -8,23 +7,7 @@ export const Footer = () => {
        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] pointer-events-none"></div>
 
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-3xl font-light mb-6">
-            Pronta para sua <span className="font-bold italic text-pink-500">Transformação?</span>
-          </h2>
-          <p className="text-gray-500 mb-8">
-            Não deixe para amanhã o corpo e a saúde que você merece ter hoje.
-            Vagas limitadas para a consultoria exclusiva.
-          </p>
-          <Button 
-            className="px-12"
-            onClick={() => document.getElementById('plans')?.scrollIntoView({ behavior: 'smooth' })}
-          >
-            Quero Me Inscrever
-          </Button>
-        </div>
-
-        <div className="grid md:grid-cols-4 gap-12 border-t border-white/10 pt-12 text-sm text-gray-500">
+        <div className="grid md:grid-cols-4 gap-12 text-sm text-gray-500">
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-white font-bold text-lg mb-4">Método Ricas de Saúde</h3>
             <p className="max-w-xs">

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { Button } from './Button';
 
 const faqs = [
   {
@@ -59,6 +60,26 @@ export const FAQ = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* CTA Section */}
+        <div className="mt-24 text-center">
+          <h3 className="text-3xl md:text-4xl font-light text-white mb-6">
+            Pronta para sua <span className="text-pink-500 font-bold italic">Transformação?</span>
+          </h3>
+          <p className="text-gray-400 mb-10 max-w-xl mx-auto">
+            Não deixe para amanhã o corpo e a saúde que você merece ter hoje. Vagas limitadas para a consultoria exclusiva.
+          </p>
+          <div className="relative inline-block">
+            {/* Glow effect */}
+            <div className="absolute inset-0 bg-pink-500/30 blur-xl rounded-full"></div>
+            <Button 
+              className="relative bg-pink-500 hover:bg-pink-600 text-white uppercase tracking-widest font-medium text-sm py-4 px-10 rounded-full"
+              onClick={() => document.getElementById('plans')?.scrollIntoView({ behavior: 'smooth' })}
+            >
+              Quero me Inscrever
+            </Button>
+          </div>
         </div>
       </div>
     </section>

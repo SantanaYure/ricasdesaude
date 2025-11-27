@@ -43,7 +43,7 @@ export const Pricing = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl text-white font-light mb-4">
-            Planos <span className="font-bold italic text-primary">Exclusivos</span>
+            Planos <span className="font-bold italic text-pink-500">Exclusivos</span>
           </h2>
           <p className="text-gray-400">Escolha o plano e comece sua transformação ainda hoje.</p>
         </div>
@@ -68,14 +68,14 @@ export const Pricing = () => {
               {/* Special Tag (Top Right) for Highlighted Plan */}
               {plan.specialTag && (
                 <div className="absolute -top-3 right-8">
-                   <span className="bg-dark-900 border border-primary text-primary text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+                   <span className="bg-dark-900 border border-primary text-pink-500 text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">
                      {plan.specialTag}
                    </span>
                 </div>
               )}
 
               <div className="mb-8 mt-4">
-                <h3 className="text-primary uppercase tracking-widest text-sm mb-4 font-medium">{plan.name}</h3>
+                <h3 className="text-pink-500 uppercase tracking-widest text-sm mb-4 font-medium">{plan.name}</h3>
                 
                 <p className="text-gray-500 text-sm line-through decoration-gray-500 decoration-1">
                   De R$ {plan.originalPrice}
@@ -83,7 +83,7 @@ export const Pricing = () => {
                 
                 <div className="flex items-baseline gap-1 mt-1">
                   <span className="text-2xl text-white font-light">Por</span>
-                  <span className="text-4xl md:text-5xl font-light text-primary ml-1">R$ {plan.price}</span>
+                  <span className="text-4xl md:text-5xl font-light text-pink-500 ml-1">R$ {plan.price}</span>
                 </div>
               </div>
 
@@ -94,7 +94,7 @@ export const Pricing = () => {
                     <li key={idx} className="flex items-start gap-3 text-sm">
                       {/* Diamond bullet point */}
                       <div className={`mt-1.5 w-2.5 h-2.5 border border-primary rotate-45 flex-shrink-0 ${isSeparator ? 'opacity-0' : ''}`} />
-                      <span className={`${isSeparator ? 'text-primary font-bold italic' : 'text-gray-300 font-light'}`}>
+                      <span className={`${isSeparator ? 'text-pink-500 font-bold italic' : 'text-gray-300 font-light'}`}>
                         {feature}
                       </span>
                     </li>

@@ -19,7 +19,7 @@ export const Button = ({
     // Changed from gradient to solid primary color
     primary: "bg-primary text-white shadow-lg shadow-primary/25 hover:shadow-primary/40 hover:bg-pink-600 border-none",
     secondary: "bg-white text-dark-900 hover:bg-gray-100",
-    outline: "border border-primary text-primary hover:bg-primary hover:text-white"
+    outline: "border border-primary text-pink-500 hover:bg-primary hover:text-white"
   } as const;
 
   return (

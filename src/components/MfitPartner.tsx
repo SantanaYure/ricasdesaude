@@ -11,14 +11,14 @@ export const MfitPartner = () => {
           
           {/* Left Content */}
           <div className="space-y-8">
-            <div className="flex items-center gap-2 text-primary font-bold tracking-widest text-xs uppercase">
+            <div className="flex items-center gap-2 text-pink-500 font-bold tracking-widest text-xs uppercase">
               <Smartphone className="w-4 h-4" />
               <span>Plataforma Parceira MFIT</span>
             </div>
 
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-white leading-tight">
               Sua academia <br />
-              <span className="text-primary font-serif italic font-bold">na palma da mão</span>
+              <span className="text-pink-500 font-serif italic font-bold">na palma da mão</span>
             </h2>
 
             <p className="text-gray-400 text-lg leading-relaxed max-w-xl">

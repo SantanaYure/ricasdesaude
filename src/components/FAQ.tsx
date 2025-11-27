@@ -27,7 +27,7 @@ export const FAQ = () => {
     <section className="py-24 bg-black text-white">
       <div className="container mx-auto px-4 max-w-3xl">
         <h2 className="text-3xl md:text-4xl font-light text-center mb-12 text-white">
-          Perguntas <span className="font-bold font-serif italic text-primary">Frequentes</span>
+          Perguntas <span className="font-bold font-serif italic text-pink-500">Frequentes</span>
         </h2>
 
         <div className="space-y-4">
@@ -42,7 +42,7 @@ export const FAQ = () => {
               >
                 <span className="font-bold text-lg md:text-xl text-white">{faq.question}</span>
                 {openIndex === index ? (
-                  <ChevronUp className="w-5 h-5 text-primary shrink-0" />
+                  <ChevronUp className="w-5 h-5 text-pink-500 shrink-0" />
                 ) : (
                   <ChevronDown className="w-5 h-5 text-gray-400 shrink-0" />
                 )}

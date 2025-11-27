@@ -20,14 +20,14 @@ export const About = () => {
                 <div className="absolute inset-0 bg-linear-to-t from-dark-900 via-transparent to-transparent opacity-80"></div>
                 <div className="absolute bottom-6 left-6 right-6">
                     <p className="text-white text-2xl font-bold">Quezia Reis</p>
-                    <p className="text-primary text-sm">Personal Trainer</p>
+                    <p className="text-pink-500 text-sm">Personal Trainer</p>
                 </div>
             </div>
           </div>
 
           <div className="order-1 md:order-2 space-y-8">
             <div>
-              <span className="text-primary text-sm font-bold tracking-widest uppercase mb-2 block">
+              <span className="text-pink-500 text-sm font-bold tracking-widest uppercase mb-2 block">
                 Sua Treinadora
               </span>
               <h2 className="text-4xl md:text-5xl text-white font-light mb-6">

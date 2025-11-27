@@ -10,11 +10,11 @@ export const Testimonials = () => {
     <section className="py-24 bg-dark-900 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="text-primary text-sm font-bold tracking-widest uppercase mb-2 block">
+          <span className="text-pink-500 text-sm font-bold tracking-widest uppercase mb-2 block">
             Resultados Reais
           </span>
           <h2 className="text-3xl md:text-5xl text-white font-light mb-6">
-            Histórias de <span className="font-bold italic text-primary">Sucesso</span>
+            Histórias de <span className="font-bold italic text-pink-500">Sucesso</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Confira o que dizem quem já transformou o corpo e a mente com o Método.

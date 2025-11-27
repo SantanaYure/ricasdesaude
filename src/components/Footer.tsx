@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <h2 className="text-3xl font-light mb-6">
-            Pronta para sua <span className="font-bold italic text-primary">Transformação?</span>
+            Pronta para sua <span className="font-bold italic text-pink-500">Transformação?</span>
           </h2>
           <p className="text-gray-500 mb-8">
             Não deixe para amanhã o corpo e a saúde que você merece ter hoje.
@@ -35,9 +35,9 @@ export const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-4">Navegação</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-primary transition-colors">Início</a></li>
-              <li><a href="#plans" className="hover:text-primary transition-colors">Planos</a></li>
-              <li><a href="#about" className="hover:text-primary transition-colors">Sobre</a></li>
+              <li><a href="#" className="hover:text-pink-500 transition-colors">Início</a></li>
+              <li><a href="#plans" className="hover:text-pink-500 transition-colors">Planos</a></li>
+              <li><a href="#about" className="hover:text-pink-500 transition-colors">Sobre</a></li>
             </ul>
           </div>
 

@@ -64,6 +64,17 @@ export const Footer = () => {
         
         <div className="text-center pt-12 mt-12 border-t border-white/5 text-xs text-gray-600">
           <p>© {new Date().getFullYear()} Quezia Reis Personal Trainer. Todos os direitos reservados.</p>
+          <p className="mt-4">
+            Criado por{' '}
+            <a 
+              href="https://meu-portfolio-25xr9d90s-santanayures-projects.vercel.app/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-gray-400 transition-colors"
+            >
+              Yure Santana
+            </a>
+          </p>
         </div>
       </div>
     </footer>

@@ -16,34 +16,37 @@ export const Hero = () => {
             className="w-full h-full object-cover opacity-60"
           />
         </picture>
-        <div className="absolute inset-0 bg-linear-to-b from-dark-900/80 via-dark-900/50 to-dark-900"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 w-full px-6 md:px-12 lg:px-24 text-left mt-16">
         
         <div className="mb-8">
-           <span className="text-xs md:text-sm tracking-[0.2em] text-primary uppercase border border-primary/60 px-4 py-2 rounded-full font-medium inline-block">
+           <span className="text-xs md:text-sm tracking-[0.2em] text-pink-500 uppercase border border-pink-500 px-4 py-2 rounded-full font-medium inline-block">
              Consultoria Online Premium
            </span>
         </div>
 
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-6 leading-tight">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-6 leading-tight drop-shadow-lg">
           Transforme seu <br/>
-          corpo e <span className="font-bold italic text-primary">mente</span>
+          corpo e <span className="font-bold italic text-pink-500">mente</span>
         </h1>
 
-        <p className="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl font-light">
-           Treinos personalizados para mulheres que buscam excelência em todas as áreas da vida
-        </p>
+          <p className="text-gray-200 text-lg md:text-xl mb-10 max-w-2xl font-light drop-shadow">
+            Treinos personalizados para mulheres que buscam excelência em todas as áreas da vida
+          </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-start">
-          <Button variant="primary" onClick={() => document.getElementById('plans')?.scrollIntoView()}>
+          <Button 
+            variant="primary" 
+            className="bg-pink-500 text-white rounded-full font-semibold shadow-lg hover:bg-pink-600 transition-colors duration-200 px-8 py-3"
+            onClick={() => document.getElementById('plans')?.scrollIntoView()}>
             Começar Agora
           </Button>
           <Button 
             variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-dark-900"
+            className="bg-black/90 border border-pink-500 text-white rounded-full font-semibold shadow-lg hover:border-white transition-colors duration-200 px-8 py-3"
             onClick={() => document.getElementById('about')?.scrollIntoView()}
           >
             Saiba Mais

@@ -1,0 +1,12 @@
+# Robots.txt para ricasdesaude.com
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ricasdesaude.com/sitemap.xml
+
+# Bloquear arquivos de assets desnecessários para indexação
+Disallow: /assets/*.js$
+Disallow: /assets/*.css$

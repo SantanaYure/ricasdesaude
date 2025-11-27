@@ -44,7 +44,7 @@ export const About = () => {
                         <Heart className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
                     </div>
                     <div>
-                        <h4 className="text-white font-semibold mb-1">Lifestyle & Equilíbrio</h4>
+                        <h3 className="text-white font-semibold mb-1 text-base">Lifestyle & Equilíbrio</h3>
                         <p className="text-sm text-gray-400 leading-relaxed">Compreende na prática a arte de equilibrar família, carreira e bem-estar, oferecendo soluções reais para mulheres que exigem excelência.</p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ export const About = () => {
                         <GraduationCap className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
                     </div>
                     <div>
-                        <h4 className="text-white font-semibold mb-1">Especialização Premium</h4>
+                        <h3 className="text-white font-semibold mb-1 text-base">Especialização Premium</h3>
                         <p className="text-sm text-gray-400 leading-relaxed">Bacharel em Educação Física com Especialização em Saúde da Mulher e certificação internacional NASM.</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ export const About = () => {
                         <Star className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
                     </div>
                     <div>
-                        <h4 className="text-white font-semibold mb-1">Formação de Elite</h4>
+                        <h3 className="text-white font-semibold mb-1 text-base">Formação de Elite</h3>
                         <p className="text-sm text-gray-400 leading-relaxed">Background refinado em Dança (Byla Dança) e Pilates, combinando arte, ciência e técnica em cada protocolo.</p>
                     </div>
                 </div>

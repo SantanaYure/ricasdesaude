@@ -39,39 +39,42 @@ export const About = () => {
             </div>
 
             <div className="space-y-6">
-                <div className="flex gap-4">
-                    <div className="bg-dark-800 p-3 rounded-lg h-fit text-primary">
-                        <Heart />
+                <div className="flex gap-5">
+                    <div className="shrink-0">
+                        <Heart className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
                     </div>
                     <div>
-                        <h4 className="text-white font-bold mb-1">Lifestyle & Equilíbrio</h4>
-                        <p className="text-sm text-gray-500">Compreende na prática a arte de equilibrar família, carreira e bem-estar, oferecendo soluções reais para mulheres que exigem excelência.</p>
+                        <h4 className="text-white font-semibold mb-1">Lifestyle & Equilíbrio</h4>
+                        <p className="text-sm text-gray-400 leading-relaxed">Compreende na prática a arte de equilibrar família, carreira e bem-estar, oferecendo soluções reais para mulheres que exigem excelência.</p>
                     </div>
                 </div>
                 
-                <div className="flex gap-4">
-                    <div className="bg-dark-800 p-3 rounded-lg h-fit text-primary">
-                        <GraduationCap />
+                <div className="flex gap-5">
+                    <div className="shrink-0">
+                        <GraduationCap className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
                     </div>
                     <div>
-                        <h4 className="text-white font-bold mb-1">Especialização Premium</h4>
-                        <p className="text-sm text-gray-500">Bacharel em Educação Física com Especialização em Saúde da Mulher e certificação internacional NASM.</p>
+                        <h4 className="text-white font-semibold mb-1">Especialização Premium</h4>
+                        <p className="text-sm text-gray-400 leading-relaxed">Bacharel em Educação Física com Especialização em Saúde da Mulher e certificação internacional NASM.</p>
                     </div>
                 </div>
 
-                <div className="flex gap-4">
-                    <div className="bg-dark-800 p-3 rounded-lg h-fit text-primary">
-                        <Star />
+                <div className="flex gap-5">
+                    <div className="shrink-0">
+                        <Star className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
                     </div>
                     <div>
-                        <h4 className="text-white font-bold mb-1">Formação de Elite</h4>
-                        <p className="text-sm text-gray-500">Background refinado em Dança (Byla Dança) e Pilates, combinando arte, ciência e técnica em cada protocolo.</p>
+                        <h4 className="text-white font-semibold mb-1">Formação de Elite</h4>
+                        <p className="text-sm text-gray-400 leading-relaxed">Background refinado em Dança (Byla Dança) e Pilates, combinando arte, ciência e técnica em cada protocolo.</p>
                     </div>
                 </div>
             </div>
 
             <div className="pt-6">
-                 <Button onClick={() => window.open('https://wa.me/5571988895613?text=Oi%20Quezia!%20Gostaria%20de%20agendar%20uma%20consultoria', '_blank')}>
+                 <Button 
+                   className="bg-pink-500 hover:bg-pink-600 text-white uppercase tracking-widest font-medium text-xs py-4 px-8 rounded-full"
+                   onClick={() => window.open('https://wa.me/5571988895613?text=Oi%20Quezia!%20Gostaria%20de%20agendar%20uma%20consultoria', '_blank')}
+                 >
                     Agendar Consultoria
                  </Button>
             </div>

@@ -6,7 +6,7 @@ export const Comparison = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-light mb-6 text-white">
-            A verdade é <span className="font-bold text-primary italic">simples</span>
+            A verdade é <span className="font-bold text-pink-50 italic">simples</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Pare de perder tempo com métodos que não funcionam. Escolha o caminho da eficiência.
@@ -63,7 +63,7 @@ export const Comparison = () => {
                 ))}
                 
                 {/* Last item highlighted */}
-                <li className="flex items-start space-x-4 font-bold text-primary">
+                  <li className="flex items-start space-x-4 font-bold text-pink-50">
                     <Check className="w-5 h-5 text-feedback-success shrink-0 mt-1" />
                     <span className="text-lg">Bônus Exclusivos & App Premium</span>
                 </li>

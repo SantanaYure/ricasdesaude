@@ -13,7 +13,7 @@ import { Testimonials } from './components/Testimonials'
 function App() {
  
   return (
-    <main>
+    <main className="min-h-screen bg-dark-900 text-white selection:bg-primary selection:text-white">
       <Hero />
       <Features />
       <Comparison />
@@ -25,6 +25,7 @@ function App() {
       <FAQ />
       <Footer />
     </main>
+
   )
 }
 

@@ -15,11 +15,11 @@ export const Comparison = () => {
 
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto items-center">
           {/* Wrong Way - Left Side */}
-          <div className="space-y-8 px-4">
-            <h3 className="text-xl font-bold text-gray-400 mb-2 border-b border-gray-800 pb-4 inline-block w-full text-left">
+          <div className="space-y-8">
+            <h3 className="text-2xl font-bold text-gray-400 border-b border-gray-700 pb-6 w-full text-left">
               Tentando Sozinha
             </h3>
-            <ul className="space-y-6">
+            <ul className="space-y-5">
               {[
                 "Treinos aleatórios do YouTube sem progressão",
                 "Desânimo por falta de resultados visíveis",
@@ -27,8 +27,8 @@ export const Comparison = () => {
                 "Dieta restritiva que não dura uma semana"
               ].map((item, i) => (
                 <li key={i} className="flex items-start space-x-4 text-gray-400">
-                  <X className="w-6 h-6 text-feedback-error shrink-0 mt-0.5" />
-                  <span className="text-lg font-light">{item}</span>
+                  <X className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
+                  <span className="text-base font-light">{item}</span>
                 </li>
               ))}
             </ul>
@@ -37,11 +37,11 @@ export const Comparison = () => {
           {/* Right Way - Card */}
           <div className="relative">
              {/* Subtle Glow */}
-             <div className="absolute inset-0 bg-primary/10 blur-3xl rounded-3xl opacity-40"></div>
+             <div className="absolute inset-0 bg-pink-500/5 blur-3xl rounded-3xl opacity-50"></div>
             
-            <div className="relative bg-[#111] border border-primary/20 rounded-3xl p-8 md:p-10 shadow-2xl">
-              <div className="flex items-center gap-3 mb-8 border-b border-white/10 pb-6">
-                <div className="bg-primary rounded-full p-1 shadow-lg shadow-primary/40">
+            <div className="relative bg-dark-900 border border-dark-800 rounded-2xl p-8 md:p-10 shadow-2xl">
+              <div className="flex items-center gap-3 mb-8 pb-6 border-b border-white/10">
+                <div className="bg-pink-500 rounded-full p-2 shadow-lg shadow-pink-500/40 shrink-0">
                      <Check className="w-5 h-5 text-white" strokeWidth={3} /> 
                 </div>
                 <h3 className="text-2xl font-bold text-white">
@@ -49,23 +49,23 @@ export const Comparison = () => {
                 </h3>
               </div>
               
-              <ul className="space-y-5">
+              <ul className="space-y-4">
                 {[
                   "Plano 100% personalizado para seu corpo",
                   "Acompanhamento diário e motivação",
                   "Correção de movimentos por vídeo",
                   "Estratégias reais para perder gordura e ganhar massa"
                 ].map((item, i) => (
-                  <li key={i} className="flex items-start space-x-4 font-medium text-white">
-                    <Check className="w-5 h-5 text-feedback-success shrink-0 mt-1" />
-                    <span className="text-lg font-light">{item}</span>
+                  <li key={i} className="flex items-start space-x-4 text-white">
+                    <Check className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
+                    <span className="text-base font-light">{item}</span>
                   </li>
                 ))}
                 
                 {/* Last item highlighted */}
-                  <li className="flex items-start space-x-4 font-bold text-pink-50">
-                    <Check className="w-5 h-5 text-feedback-success shrink-0 mt-1" />
-                    <span className="text-lg text-pink-500 font-bold">Bônus Exclusivos & App Premium</span>
+                  <li className="flex items-start space-x-4 pt-2">
+                    <Check className="w-5 h-5 text-green-400 shrink-0 mt-0.5" />
+                    <span className="text-base text-pink-500 font-bold">Bônus Exclusivos & App Premium</span>
                 </li>
               </ul>
             </div>

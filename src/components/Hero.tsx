@@ -40,13 +40,13 @@ export const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-start">
           <Button 
             variant="primary" 
-            className="bg-pink-500 text-white rounded-full font-semibold shadow-lg hover:bg-pink-600 transition-colors duration-200 px-8 py-3"
+            className="bg-pink-500 text-white rounded-full font-bold uppercase tracking-wider shadow-lg hover:bg-pink-600 transition-colors duration-200 px-10 py-4"
             onClick={() => document.getElementById('plans')?.scrollIntoView()}>
             Começar Agora
           </Button>
           <Button 
             variant="outline" 
-            className="bg-black/90 border border-pink-500 text-white rounded-full font-semibold shadow-lg hover:border-white transition-colors duration-200 px-8 py-3"
+            className="bg-transparent border-2 border-white text-white rounded-full font-bold uppercase tracking-wider hover:bg-white/10 transition-colors duration-200 px-10 py-4"
             onClick={() => document.getElementById('about')?.scrollIntoView()}
           >
             Saiba Mais

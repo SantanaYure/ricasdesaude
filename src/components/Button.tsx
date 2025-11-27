@@ -13,7 +13,7 @@ export const Button = ({
   className = '', 
   ...props 
 }: ButtonProps) => {
-  const baseStyles = "px-8 py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 active:scale-95 text-sm uppercase tracking-wider";
+  const baseStyles = "px-8 py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 active:scale-95 text-sm uppercase tracking-wider cursor-pointer";
   
   const variants = {
     // Changed from gradient to solid primary color

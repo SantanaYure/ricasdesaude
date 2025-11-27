@@ -2,10 +2,12 @@ import './App.css'
 import { About } from './components/About'
 import { Comparison } from './components/Comparison'
 import { FAQ } from './components/FAQ'
+import { MomentIdealCTA } from './components/MomentIdealCTA'
 import { Features } from './components/Features'
 import { Footer } from './components/Footer'
 import { Hero } from './components/Hero'
 import { MfitPartner } from './components/MfitPartner'
+import { Objections } from './components/Objections'
 import { Pricing } from './components/Pricing'
 import { PrimeBonus } from './components/PrimeBonus'
 import { Testimonials } from './components/Testimonials'
@@ -21,7 +23,9 @@ function App() {
       <PrimeBonus />
       <Testimonials />
       <Pricing />
+      <Objections />
       <About />
+      <MomentIdealCTA />
       <FAQ />
       <Footer />
     </main>

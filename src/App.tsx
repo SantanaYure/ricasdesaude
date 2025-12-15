@@ -20,11 +20,11 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <About />
       <MfitPartner />
       <PrimeBonus />
       <Testimonials />
       <Pricing />
-      <About />
       <MomentIdealCTA />
       <FAQ />
       <Footer />

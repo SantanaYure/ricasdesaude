@@ -34,7 +34,7 @@ export const About = () => {
                 Quezia <span className="font-bold italic">Reis</span>
               </h2>
               <p className="text-white-100 leading-relaxed mb-6">
-                Especialista em transformação física feminina e criadora do Método Ricas de Saúde. Minha missão não é apenas te fazer emagrecer, mas devolver sua autoestima e vitalidade.
+                Especialista em saúde da mulher e criadora do Método Ricas de Saúde. Minha missão não é apenas te fazer emagrecer, mas devolver sua autoestima e vitalidade.
               </p>
               <p className="text-white-100 leading-relaxed mb-6">
                 Diferente de personal trainers comuns que apenas contam repetições, eu atuo como uma estrategista do seu corpo. Entendo a rotina da mulher moderna, os desafios hormonais e a necessidade de otimização de tempo.

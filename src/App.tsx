@@ -1,5 +1,6 @@
 import './App.css'
 import { About } from './components/About'
+import { Banner } from './components/Banner'
 import { Comparison } from './components/Comparison'
 import { FAQ } from './components/FAQ'
 import { MomentIdealCTA } from './components/MomentIdealCTA'
@@ -16,6 +17,7 @@ function App() {
  
   return (
     <main className="min-h-screen bg-dark-900 text-white selection:bg-primary selection:text-white">
+      <Banner />
       <Hero />
       <Features />
       <Comparison />

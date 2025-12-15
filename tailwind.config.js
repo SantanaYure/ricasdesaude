@@ -1,6 +1,9 @@
 export default {
   theme: {
     extend: {
+      fontFamily: {
+        'segoe': ['"Segoe UI"', 'sans-serif'],
+      },
       colors: {
         'dark-900': '#0a0a0a', // fundo principal
         'dark-800': '#1a1a1a', // fundo secundário/cartões

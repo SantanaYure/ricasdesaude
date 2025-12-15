@@ -1,5 +1,4 @@
-import { Button } from './Button';
-import { Star, GraduationCap, Heart, Instagram } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 export const About = () => {
   return (
@@ -16,10 +15,11 @@ export const About = () => {
                   src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-hero.jpg" 
                   alt="Quezia Reis" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-dark-900 via-transparent to-transparent opacity-80"></div>
                 <div className="absolute bottom-6 left-6 right-6">
-                    <p className="text-white-100 text-2xl font-bold">Quezia Reis</p>
+                    <p className="text-white text-2xl font-bold">Quezia Reis</p>
                     <p className="text-pink-500 text-sm">Personal Trainer</p>
                 </div>
             </div>
@@ -30,16 +30,16 @@ export const About = () => {
               <span className="text-pink-500 text-sm font-bold tracking-widest uppercase mb-2 block">
                 Sua Mentora
               </span>
-              <h2 className="text-4xl md:text-5xl text-white-100 font-light mb-6">
+              <h2 className="text-4xl md:text-5xl text-white font-light mb-6">
                 Quezia <span className="font-bold italic">Reis</span>
               </h2>
-              <p className="text-white-100 leading-relaxed mb-6">
+              <p className="text-gray-400 leading-relaxed mb-6">
                 Especialista em saúde da mulher e criadora do Método Ricas de Saúde. Minha missão não é apenas te fazer emagrecer, mas devolver sua autoestima e vitalidade.
               </p>
-              <p className="text-white-100 leading-relaxed mb-6">
+              <p className="text-gray-400 leading-relaxed mb-6">
                 Diferente de personal trainers comuns que apenas contam repetições, eu atuo como uma estrategista do seu corpo. Entendo a rotina da mulher moderna, os desafios hormonais e a necessidade de otimização de tempo.
               </p>
-              <p className="text-white-100 leading-relaxed mb-6">
+              <p className="text-gray-400 leading-relaxed mb-6">
                 Já ajudei centenas de mulheres a saírem do "efeito sanfona" e conquistarem um corpo estético e funcional, sem precisarem morar na academia.
               </p>
               
@@ -51,7 +51,7 @@ export const About = () => {
                   className="flex items-center gap-1 hover:opacity-80 transition-opacity"
                 >
                   <Instagram size={16} className="text-pink-500" />
-                  <span className="text-white-100">@queziareisrs</span>
+                  <span className="text-white">@queziareisrs</span>
                 </a>
               </div>
             </div>

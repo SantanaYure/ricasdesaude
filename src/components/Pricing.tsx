@@ -64,7 +64,7 @@ export const Pricing = () => {
               {/* Card */}
               <div className={`p-8 rounded-2xl flex flex-col h-full ${
                 plan.highlight 
-                  ? 'bg-gradient-to-br from-[#2a1a2a] to-[#1a1a1a] border-2 border-pink-500' 
+                  ? 'bg-linear-to-br from-[#2a1a2a] to-[#1a1a1a] border-2 border-pink-500' 
                   : 'bg-[#0f0f0f] border border-gray-800'
               }`}>
                 <div className="mb-8">

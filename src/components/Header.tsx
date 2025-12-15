@@ -48,7 +48,7 @@ export const Header = () => {
           ))}
           <button
             onClick={() => handleScrollTo('#plans')}
-            className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-pink-600 hover:to-pink-700 transition-all shadow-lg shadow-pink-500/30 cursor-pointer"
+            className="bg-linear-to-r from-pink-500 to-pink-600 text-white px-6 py-2.5 rounded-full text-sm font-bold hover:from-pink-600 hover:to-pink-700 transition-all shadow-lg shadow-pink-500/30 cursor-pointer"
           >
             Quero ser Aluna
           </button>
@@ -82,7 +82,7 @@ export const Header = () => {
               ))}
               <button
                 onClick={() => handleScrollTo('#plans')}
-                className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-full text-sm font-bold hover:from-pink-600 hover:to-pink-700 transition-all shadow-lg shadow-pink-500/30 w-full mt-2 cursor-pointer"
+                className="bg-linear-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-full text-sm font-bold hover:from-pink-600 hover:to-pink-700 transition-all shadow-lg shadow-pink-500/30 w-full mt-2 cursor-pointer"
               >
                 Quero ser Aluna
               </button>

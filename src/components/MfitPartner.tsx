@@ -1,4 +1,4 @@
-import { Check, Smartphone, CheckCircle2 } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 export const MfitPartner = () => {
   return (
@@ -11,10 +11,7 @@ export const MfitPartner = () => {
           
           {/* Left Content */}
           <div className="space-y-8">
-            <div className="flex items-center gap-2 text-pink-500 font-bold tracking-widest text-xs uppercase">
-              
-              
-            </div>
+
 
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-white leading-tight">
               Sua academia <br />
@@ -61,6 +58,7 @@ export const MfitPartner = () => {
                   src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/mfit.jpeg" 
                   alt="Interface MFIT Personal" 
                   className="w-full h-auto rounded-4xl shadow-inner"
+                  loading="lazy"
                 />
              </div>
           </div>

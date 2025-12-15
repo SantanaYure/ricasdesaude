@@ -1,4 +1,4 @@
-import { Check, Gift } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 export const PrimeBonus = () => {
   return (
@@ -11,12 +11,10 @@ export const PrimeBonus = () => {
             src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&auto=format&fit=crop&q=80&blur=10"
             alt="Gourmet beverage background" 
             className="w-full h-full object-cover"
+            loading="lazy"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/60"></div>
+          <div className="absolute inset-0 bg-linear-to-r from-black/90 via-black/75 to-black/60"></div>
         </div>
-
-        {/* Badge Sobreposto - Canto Superior Direito */}
-
 
         {/* Conteúdo Principal - Layout Horizontal */}
         <div className="relative z-10 flex flex-col lg:flex-row items-center gap-8 p-8 md:p-12 lg:p-16">
@@ -56,7 +54,8 @@ export const PrimeBonus = () => {
               <img 
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=80"
                 alt="Restaurante sofisticado com vista externa" 
-                className="w-full h-full object-cover aspect-[4/3]"
+                className="w-full h-full object-cover aspect-4/3"
+                loading="lazy"
               />
             </div>
           </div>

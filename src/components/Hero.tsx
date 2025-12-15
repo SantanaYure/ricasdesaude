@@ -14,6 +14,7 @@ export const Hero = () => {
             src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-about.png" 
             alt="Woman working out" 
             className="w-full h-full object-cover opacity-60"
+            loading="eager"
           />
         </picture>
         <div className="absolute inset-0 bg-black/70"></div>

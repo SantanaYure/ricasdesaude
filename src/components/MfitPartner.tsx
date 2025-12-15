@@ -55,24 +55,13 @@ export const MfitPartner = () => {
           </div>
 
           {/* Right Image */}
-          <div className="relative">
+          <div className="relative max-w-md mx-auto">
              <div className="relative bg-white rounded-4xl p-4 shadow-2xl border border-gray-800">
                 <img 
                   src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/mfit.jpeg" 
                   alt="Interface MFIT Personal" 
                   className="w-full h-auto rounded-4xl shadow-inner"
                 />
-                
-                {/* Floating Badge */}
-                <div className="absolute -bottom-6 -left-6 bg-[#1a1a1a] p-4 rounded-xl shadow-xl border border-white/10 flex items-center gap-3">
-                    <div className="bg-green-500/20 p-2 rounded-full">
-                        <CheckCircle2 className="w-5 h-5 text-green-500" />
-                    </div>
-                    <div>
-                        <p className="text-gray-400 text-xs">Powered by</p>
-                        <p className="text-white font-bold text-sm">MFIT Personal</p>
-                    </div>
-                </div>
              </div>
           </div>
 

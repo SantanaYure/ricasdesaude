@@ -31,7 +31,7 @@ export const Footer = () => {
                 href="https://www.instagram.com/queziareisrs/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-dark-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all"
+                className="w-10 h-10 rounded-full bg-dark-800 flex items-center justify-center hover:bg-pink-500/10 transition-all text-pink-500"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
@@ -40,7 +40,7 @@ export const Footer = () => {
                 href="https://wa.me/5571988895613?text=Oi%20Quezia!%20Vim%20pelo%20site%20e%20quero%20saber%20mais"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-dark-800 flex items-center justify-center hover:text-white transition-allhover:text-white transition-all"
+                className="w-10 h-10 rounded-full bg-dark-800 flex items-center justify-center hover:bg-green-500/10 transition-all text-green-500"
                 aria-label="WhatsApp"
               >
                 <svg 

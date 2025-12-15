@@ -1,5 +1,5 @@
 import { Button } from './Button';
-import { Star, GraduationCap, Heart } from 'lucide-react';
+import { Star, GraduationCap, Heart, Instagram } from 'lucide-react';
 
 export const About = () => {
   return (
@@ -28,55 +28,34 @@ export const About = () => {
           <div className="order-1 md:order-2 space-y-8">
             <div>
               <span className="text-pink-500 text-sm font-bold tracking-widest uppercase mb-2 block">
-                Sua Treinadora
+                Sua Mentora
               </span>
               <h2 className="text-4xl md:text-5xl text-white font-light mb-6">
                 Quezia <span className="font-bold italic">Reis</span>
               </h2>
               <p className="text-gray-400 leading-relaxed mb-6">
-                Criadora do Método Ricas de Saúde, Quezia Reis é a referência para mulheres que buscam não apenas um corpo estético, mas uma transformação de mentalidade e hábitos.
+                Especialista em transformação física feminina e criadora do Método Ricas de Saúde. Minha missão não é apenas te fazer emagrecer, mas devolver sua autoestima e vitalidade.
               </p>
-            </div>
-
-            <div className="space-y-6">
-                <div className="flex gap-5">
-                    <div className="shrink-0">
-                        <Heart className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
-                    </div>
-                    <div>
-                        <h3 className="text-white font-semibold mb-1 text-base">Lifestyle & Equilíbrio</h3>
-                        <p className="text-sm text-gray-400 leading-relaxed">Compreende na prática a arte de equilibrar família, carreira e bem-estar, oferecendo soluções reais para mulheres que exigem excelência.</p>
-                    </div>
-                </div>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                Diferente de personal trainers comuns que apenas contam repetições, eu atuo como uma estrategista do seu corpo. Entendo a rotina da mulher moderna, os desafios hormonais e a necessidade de otimização de tempo.
+              </p>
+              <p className="text-gray-400 leading-relaxed mb-6">
+                Já ajudei centenas de mulheres a saírem do "efeito sanfona" e conquistarem um corpo estético e funcional, sem precisarem morar na academia.
+              </p>
+              
+              <div className="flex items-center gap-2 text-gray-400 text-sm">
+                <a 
+                  href="https://www.instagram.com/queziareisrs/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 hover:text-pink-500 transition-colors"
+                >
+                  <Instagram size={16} />
+                  <span>@queziareisrs</span>
+                </a>
                 
-                <div className="flex gap-5">
-                    <div className="shrink-0">
-                        <GraduationCap className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
-                    </div>
-                    <div>
-                        <h3 className="text-white font-semibold mb-1 text-base">Especialização Premium</h3>
-                        <p className="text-sm text-gray-400 leading-relaxed">Bacharel em Educação Física com Especialização em Saúde da Mulher e certificação internacional NASM.</p>
-                    </div>
-                </div>
-
-                <div className="flex gap-5">
-                    <div className="shrink-0">
-                        <Star className="w-6 h-6 text-pink-500" strokeWidth={1.5} />
-                    </div>
-                    <div>
-                        <h3 className="text-white font-semibold mb-1 text-base">Formação de Elite</h3>
-                        <p className="text-sm text-gray-400 leading-relaxed">Background refinado em Dança (Byla Dança) e Pilates, combinando arte, ciência e técnica em cada protocolo.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="pt-6">
-                 <Button 
-                   className="bg-pink-500 hover:bg-pink-600 text-white uppercase tracking-widest font-medium text-xs py-4 px-8 rounded-full"
-                   onClick={() => window.open('https://wa.me/5571988895613?text=Oi%20Quezia!%20Gostaria%20de%20agendar%20uma%20consultoria', '_blank')}
-                 >
-                    Agendar Consultoria
-                 </Button>
+                
+              </div>
             </div>
           </div>
 

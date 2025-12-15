@@ -20,7 +20,6 @@ function App() {
       <Banner />
       <Hero />
       <Features />
-      <Comparison />
       <MfitPartner />
       <PrimeBonus />
       <Testimonials />

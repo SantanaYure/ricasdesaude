@@ -1,4 +1,4 @@
-import { PlayCircle, TrendingUp, Timer, Smartphone, CheckCircle2 } from 'lucide-react';
+import { Check, Smartphone, CheckCircle2 } from 'lucide-react';
 
 export const MfitPartner = () => {
   return (
@@ -12,8 +12,8 @@ export const MfitPartner = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="flex items-center gap-2 text-pink-500 font-bold tracking-widest text-xs uppercase">
-              <Smartphone className="w-4 h-4" />
-              <span>Plataforma Parceira MFIT</span>
+              
+              
             </div>
 
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-white leading-tight">
@@ -22,42 +22,35 @@ export const MfitPartner = () => {
             </h2>
 
             <p className="text-gray-400 text-lg leading-relaxed max-w-xl">
-              Para garantir a melhor experiência, utilizo a <strong className="text-white">MFIT Personal</strong>, a plataforma de treinos mais completa do mercado. Através dela, você acessa meu planejamento personalizado para você, vê vídeos demonstrativos e acompanha sua evolução carga por carga.
+              Tenha acesso total ao seu plano personalizado através do App MFIT. A melhor tecnologia do mercado para você treinar em casa, na academia ou em viagens.
             </p>
 
-            <div className="space-y-8 pt-4">
-              {/* Feature 1 */}
-              <div className="flex gap-5">
-                <div className="shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                  <PlayCircle className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-white font-bold text-lg mb-2">Vídeos Explicativos</h3>
-                  <p className="text-gray-500 text-sm">Mais de 1.800 vídeos didáticos na plataforma para execução perfeita.</p>
-                </div>
-              </div>
+            <ul className="space-y-4 pt-4">
+              <li className="flex items-center gap-3 text-white">
+                <Check className="w-5 h-5 text-pink-500 shrink-0" />
+                <span>Vídeos demonstrativos de cada exercício</span>
+              </li>
+              <li className="flex items-center gap-3 text-white">
+                <Check className="w-5 h-5 text-pink-500 shrink-0" />
+                <span>Chat direto com a Quezia para tirar dúvidas</span>
+              </li>
+              <li className="flex items-center gap-3 text-white">
+                <Check className="w-5 h-5 text-pink-500 shrink-0" />
+                <span>Cronograma ajustável à sua rotina</span>
+              </li>
+              <li className="flex items-center gap-3 text-white">
+                <Check className="w-5 h-5 text-pink-500 shrink-0" />
+                <span>Registro de evolução com fotos e medidas</span>
+              </li>
+            </ul>
 
-              {/* Feature 2 */}
-              <div className="flex gap-5">
-                <div className="shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                  <TrendingUp className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-white font-bold text-lg mb-2">Controle de Evolução</h3>
-                  <p className="text-gray-500 text-sm">Eu acompanho seus gráficos de progresso e histórico de cargas remotamente.</p>
-                </div>
-              </div>
-
-              {/* Feature 3 */}
-              <div className="flex gap-5">
-                <div className="shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                  <Timer className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="text-white font-bold text-lg mb-2">Timer & Intervalo</h3>
-                  <p className="text-gray-500 text-sm">O app avisa a hora exata de descansar e voltar a treinar.</p>
-                </div>
-              </div>
+            <div className="pt-6">
+              <button 
+                onClick={() => document.getElementById('plans')?.scrollIntoView({ behavior: 'smooth' })}
+                className="bg-white text-black px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors cursor-pointer"
+              >
+                Garantir meu acesso
+              </button>
             </div>
           </div>
 

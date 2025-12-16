@@ -11,7 +11,7 @@ export const Hero = () => {
             srcSet="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-about-mobile.png" 
           />
           <img 
-            src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-about.png" 
+            src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-hero.avif" 
             alt="Woman working out" 
             className="w-full h-full object-cover opacity-60"
             loading="eager"

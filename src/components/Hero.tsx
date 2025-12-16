@@ -8,7 +8,7 @@ export const Hero = () => {
         <picture>
           <source 
             media="(max-width: 768px)" 
-            srcSet="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-about-mobile.png" 
+            srcSet="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-hero.avif" 
           />
           <img 
             src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-hero.avif" 

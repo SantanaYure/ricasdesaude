@@ -1,7 +1,7 @@
 import type { ButtonHTMLAttributes, ReactNode } from 'react';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'outline' | 'secondary';
+  variant?: 'primary' | 'outline';
   fullWidth?: boolean;
   children?: ReactNode;
 }
@@ -16,9 +16,7 @@ export const Button = ({
   const baseStyles = "px-8 py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 active:scale-95 text-sm uppercase tracking-wider cursor-pointer";
   
   const variants = {
-    // Changed from gradient to solid primary color
     primary: "bg-primary text-white shadow-lg shadow-primary/25 hover:shadow-primary/40 hover:bg-pink-600 border-none",
-    secondary: "bg-white text-dark-900 hover:bg-gray-100",
     outline: "border border-primary text-pink-500 hover:bg-primary hover:text-white"
   } as const;
 

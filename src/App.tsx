@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { About } from './components/About'
 import { Banner } from './components/Banner'
 import { FAQ } from './components/FAQ'
@@ -13,11 +12,6 @@ import { PrimeBonus } from './components/PrimeBonus'
 import { Testimonials } from './components/Testimonials'
 
 function App() {
-  // Carrega App.css de forma lazy após a renderização inicial
-  useEffect(() => {
-    import('./App.css')
-  }, [])
-
   return (
     <main className="min-h-screen bg-dark-900 text-white selection:bg-primary selection:text-white">
       <Banner />

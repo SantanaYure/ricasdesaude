@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const menuItems = [
-  { label: 'O MÉTODO', href: '#about' },
+  { label: 'O MÉTODO', href: '#features' },
   { label: 'MENTORA', href: '#about' },
   { label: 'RESULTADOS', href: '#testimonials' }
 ];

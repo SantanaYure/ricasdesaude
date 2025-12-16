@@ -7,7 +7,7 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-24 bg-dark-900 relative">
+    <section id="testimonials" className="py-24 bg-dark-900 relative">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <span className="text-pink-500 text-sm font-bold tracking-widest uppercase mb-2 block">

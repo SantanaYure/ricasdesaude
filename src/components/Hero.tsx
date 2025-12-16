@@ -15,6 +15,7 @@ export const Hero = () => {
             alt="Woman working out" 
             className="w-full h-full object-cover opacity-60"
             loading="eager"
+            fetchPriority="high"
           />
         </picture>
         <div className="absolute inset-0 bg-black/70"></div>

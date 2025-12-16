@@ -10,7 +10,7 @@ export const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           
           <div className="order-2 md:order-1 relative">
-            <div className="aspect-3/4 rounded-2xl overflow-hidden relative border border-white/10">
+            <div className="aspect-3/4 rounded-2xl overflow-hidden relative border border-white/10 transform scale-90">
                  <img 
                   src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/qr-about3.avif" 
                   alt="Quezia Reis" 

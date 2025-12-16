@@ -12,7 +12,7 @@ export const About = () => {
           <div className="order-2 md:order-1 relative">
             <div className="aspect-3/4 rounded-2xl overflow-hidden relative border border-white/10">
                  <img 
-                  src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/qr-about3.avif" 
+                  src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-about.avif" 
                   alt="Quezia Reis" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   loading="lazy"

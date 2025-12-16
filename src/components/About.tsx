@@ -12,15 +12,17 @@ export const About = () => {
           <div className="order-2 md:order-1 relative">
             <div className="aspect-3/4 rounded-2xl overflow-hidden relative border border-white/10">
                  <img 
-                  src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/quezia-hero.jpg" 
+                  src="https://quezia-lp-assets.s3.sa-east-1.amazonaws.com/qr-about3.avif" 
                   alt="Quezia Reis" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-dark-900 via-transparent to-transparent opacity-80"></div>
                 <div className="absolute bottom-6 left-6 right-6">
-                    <p className="text-white text-2xl font-bold">Quezia Reis</p>
-                    <p className="text-pink-500 text-sm">Personal Trainer</p>
+                    <div className="inline-flex flex-col bg-black/60 backdrop-blur-sm rounded-lg px-4 py-3 max-w-max">
+                      <p className="text-white text-2xl font-bold">Quezia Reis</p>
+                      <p className="text-pink-500 text-sm">Personal Trainer</p>
+                    </div>
                 </div>
             </div>
           </div>
